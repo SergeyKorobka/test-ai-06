@@ -204,6 +204,11 @@ img {
 }
 
 @media screen and (max-width: 767px) {
+  .nav-list,
+  .contacts {
+    display: none;
+  }
+
   .burger-btn {
     background-color: transparent;
     border: none;
@@ -265,6 +270,11 @@ img {
     font-style: normal;
   }
 
+  .contacts-list {
+    gap: 12px;
+    flex-direction: column;
+  }
+
   .contacts-link {
     display: block;
     font-size: 12px;
@@ -311,7 +321,7 @@ img {
 .section-hero {
   max-width: 320px;
   margin: 0 auto;
-  padding: 72px 0;
+  padding: 188px 0;
 
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
@@ -324,24 +334,8 @@ img {
   background-position: center;
 }
 
-/* Тут я зробив через кому альтернативні варіанти
- медіа правил які можуть використовувати студенти */
-@media screen and (min-device-pixel-ratio: 2),
-  screen and (min-resolution: 192dpi),
-  screen and (min-resolution: 2dppx),
-  screen and (min-resolution: 2x) {
-  .section-hero {
-    background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-      ),
-      url(../images/hero-mobile@2x.jpg);
-  }
-}
-
 .hero-title {
-  max-width: 216px;
-  margin: 0 auto 72px;
+  margin: 0 auto 48px;
 
   font-size: 36px;
   line-height: 1.11;
@@ -357,7 +351,6 @@ img {
 @media screen and (min-width: 768px) {
   .section-hero {
     max-width: 768px;
-    padding: 112px 0;
 
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
