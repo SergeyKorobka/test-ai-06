@@ -458,6 +458,19 @@ img {
 }
 
 @media screen and (max-width: 1157px) {
+  .benefits-icon-wrapper {
+    display: none;
+  }
+
+  .benefits-subtitle {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+  }
+
+  .benefits-text {
+    font-weight: 500;
+  }
 }
 
 @media screen and (min-width: 1158px) {
