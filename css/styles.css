@@ -225,9 +225,7 @@ header .container {
   display: flex;
   align-items: center;
 }
-.logo {
-  margin-right: 16px;
-}
+
 header address {
   font-style: normal;
   margin-left: auto;
@@ -958,7 +956,7 @@ footer .container {
     display: flex;
   }
   .logo {
-    padding-right: 120px;
+    margin-right: 120px;
   }
   .nav-list {
     display: flex;
@@ -1106,7 +1104,7 @@ footer .container {
   }
 
   .logo {
-    padding-right: 76px;
+    margin-right: 76px;
   }
   .features {
     padding-top: 120px;
