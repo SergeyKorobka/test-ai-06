@@ -1022,12 +1022,6 @@ footer .container {
   .item-text {
     width: calc((100% - 24px) / 2);
   }
-  .item-text:hover {
-    box-shadow:
-      0 2px 1px 0 rgba(46, 47, 66, 0.08),
-      0 1px 1px 0 rgba(46, 47, 66, 0.16),
-      0 1px 6px 0 rgba(46, 47, 66, 0.08);
-  }
 
   .modal {
     width: 408px;
@@ -1046,6 +1040,10 @@ footer .container {
   .logo-first,
   .logo-footer {
     align-items: start;
+  }
+
+  .team .container {
+    max-width: 584px;
   }
 
   .footer-form {
@@ -1089,6 +1087,10 @@ footer .container {
     max-width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
+  }
+
+  .team .container {
+    max-width: 1158px;
   }
   h1 {
     margin-bottom: 36px;
@@ -1173,6 +1175,13 @@ footer .container {
   .item-text {
     width: calc((100% - 48px) / 3);
     box-shadow: none;
+  }
+
+  .item-text:hover {
+    box-shadow:
+      0 2px 1px 0 rgba(46, 47, 66, 0.08),
+      0 1px 1px 0 rgba(46, 47, 66, 0.16),
+      0 1px 6px 0 rgba(46, 47, 66, 0.08);
   }
 
   .team {
